@@ -1,0 +1,314 @@
+* {
+	box-sizing: border-box;
+	}
+
+    body {
+        background-image: linear-gradient(to bottom right, DarkRed, Cornsilk);
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header {
+       margin-bottom: 10px;
+       width: 100%;
+        overflow-x: hidden;
+    }
+
+    main {
+        position: relative;
+        left: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    footer {
+        background-color: Black;
+        height: 104px;
+        bottom: 0;
+        opacity: 0.9;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 32px;
+        padding:25px;
+        color: Cornsilk;
+        background-color: black;
+        opacity: 0.9;
+        font-weight: bold;
+    }
+
+    h3 {
+        background-color: Cornsilk;
+        padding: 5px 25px;
+        font-size: 22px;
+        opacity: 0.8;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+    }
+
+    hr {
+        border-width: 0;
+        color: black;
+    }
+
+    .navbar span {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 22px;
+        color: Cornsilk;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .navbar img {
+	    height: 85px;
+    }
+
+    .navbar-brand {
+        padding: 0;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        height: 100px;
+        width: 100%;
+        background-color: Black;
+        opacity: 0.9;
+        z-index: 100;
+    }
+
+    .navbar-nav {
+        background-color: Black;
+    }
+
+    .navbar-nav li {
+        margin-left: 15px;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+    .timer {
+        text-align: center;
+        font-size: 48px;
+        margin-top: 40px;
+    }
+
+    .copyright {
+        float: left;
+        color: Cornsilk;
+        font-size: 20px;
+        text-align: center;
+    }
+        
+    .contact {  
+        display: block;
+        text-align:center;
+    }
+    
+    .contact img {
+        width: 40px;
+        margin: 6px 20px;
+    }
+        
+    .contact img:hover {
+        width: 52px;
+        margin: 0px 14px;
+    }
+
+    .sectiune {
+        text-align: justify;
+        margin: 0;
+    }
+
+    .sectiune p {
+        width: 100%;
+        padding: 30px;
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    .sectiune img {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .carousel-caption {
+        background-color: black;
+        opacity: 0.7;
+        padding-top: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .carousel-caption p {
+        font-family: "Courier New", Courier, monospace;
+    }
+
+    .card {
+        display: block;
+        text-align: center;
+        background-color: transparent;
+        border: 0;
+        margin: 30px 0px;
+    }
+    
+    .card h4 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 0;
+    }
+
+    .bilet {
+        margin: 0;
+    }
+
+    .detalii {
+        margin: 20px 60px;
+        border: 2px solid black;
+        border-radius: 12px; 
+        position: relative;
+        height: 450px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+        background-image: url(imagini/linii.png);
+    }
+
+    .buy-here {
+        position: absolute;
+        bottom: 140px;
+        left: 15px;
+        background-color: Black;
+        color: DarkSalmon;
+        padding: 10px;
+        font-size: 22px;
+    }
+
+    .bilet ul {
+        list-style: none;
+        font-size: 20px;
+        margin: 20px;
+        font-family: "Courier New", Courier, monospace;
+    }
+
+    .bilet ul li:before {
+        content: '✓';
+        color: lightgreen;
+    }
+
+    .icon {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100px;
+        margin: 20px;
+    }
+    
+    .qr {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100px;
+        margin: 20px;
+        background-color: white;
+    }
+
+    .bilet h4 {
+        background-color: black;
+        color: DarkSalmon;
+        padding: 5px 15px;
+        margin-top: 20px;
+        font-size: 28px;
+        font-family: "Courier New", Courier, monospace;
+    }
+
+    .pret {
+        font-size: 64px;
+        padding: 20px;
+        position: absolute;
+        bottom: 60px;
+        left: 10px;
+        color: lightgreen;
+        font-family: "Courier New", Courier, monospace;
+    }
+
+    .bilet a {
+        color: cornsilk;
+        text-decoration: none;
+    }
+
+    .bilet:hover a{
+        color: DarkRed;
+        transition: .5s ease;
+    }
+
+    .bilet a:hover {
+        color: Cornsilk;
+    }
+
+    iframe {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+        background-color: white;
+    }
+
+    .carousel {
+        margin-bottom: 0;
+        margin-top: 110px;
+    }
+
+    .sigla img {
+        height: 150px;
+    }
+
+    .sigla {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .formular {
+        display: block;
+        text-align: center;
+        background-image: url(imagini/linii.png);
+    }
+
+    .formular iframe {
+        margin: 20px;
+        width: 80%;
+        height: 400px;
+    }
+
+    .date-contact {
+        display: block;
+        text-align: center;
+    }
+
+    .date-contact iframe {
+        margin: 20px;
+        width: 80%;
+        height: 475px;
+    }
+
+    .form {
+        display: block;
+        text-align: center;
+    }
+
+    .form iframe {
+        margin: 20px;
+        width: 80%;
+        height: 400px;
+    }
